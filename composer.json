@@ -1,0 +1,39 @@
+{
+    "name": "ptuchik/omnipay-binancepay",
+    "type": "library",
+    "description": "Binance Pay gateway for Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "binance",
+        "binance-pay",
+        "purchase"
+    ],
+    "homepage": "https://github.com/ptuchik/omnipay-biinancepay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Avik Aghajanyan",
+            "email": "avik.aghajanyan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\BinancePay\\": "src/"
+        }
+    },
+    "require": {
+        "omnipay/common": "^3"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    }
+}
