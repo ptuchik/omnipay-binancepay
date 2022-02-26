@@ -72,7 +72,7 @@ Or you can simply run
     
     $request = $gateway->completePurchase()
     $request->setNonce(\Str::random(32));
-    $request$request->setTransactionId(XXXX); // Transaction ID from your system
+    $request->setTransactionId(XXXX); // Transaction ID from your system
     
     $purchase = $request->send();
     
