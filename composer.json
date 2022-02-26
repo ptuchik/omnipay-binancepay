@@ -1,7 +1,7 @@
 {
     "name": "ptuchik/omnipay-binancepay",
     "type": "library",
-    "description": "Binance Pay gateway for Omnipay payment processing library",
+    "description": "BinancePay gateway for Omnipay payment processing library",
     "keywords": [
         "gateway",
         "merchant",
@@ -9,10 +9,10 @@
         "pay",
         "payment",
         "binance",
-        "binance-pay",
+        "binancepay",
         "purchase"
     ],
-    "homepage": "https://github.com/ptuchik/omnipay-biinancepay",
+    "homepage": "https://github.com/ptuchik/omnipay-binancepay",
     "license": "MIT",
     "authors": [
         {
